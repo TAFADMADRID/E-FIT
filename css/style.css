@@ -464,6 +464,35 @@ Team
 	margin-bottom: 30px;
 }
 
+/* ================================
+Galería Equipo
+================================= */
+/*.pieequipo h4{
+	color: white;
+	text-shadow: 1px 2px 2px black, 0 0 25px blue,0 0 5px blue;
+} */
+div.galeriaequipo{
+	margin: 7px 15px;
+	box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: left;
+	width: 265px;
+}
+
+div.galeriaequipo img{
+	width: 70%;
+	height: 100%;
+}
+
+div.galeriaequipo:hover{
+	border: 1px solid lightcoral;
+	transform: rotate(-3deg);
+}
+
+div.pieequipo{
+	text-align: center;
+	padding: 10px;
+}
+
 
 
 /* ================================
