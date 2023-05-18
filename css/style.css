@@ -457,11 +457,32 @@ About
   margin-bottom: 0;
 }
 
+#about .content .image-container {
+	overflow: hidden;
+  }
+  
+  #about .content .image-container img {
+	display: block;
+  }
+
 /* ================================
 Team
 ================================= */
 .box-team img {
 	margin-bottom: 30px;
+}
+
+/* ================================
+Entrenadores
+================================= */
+.box-entrenador{
+	padding: 0 15px;
+}
+.box-entrenador img {
+	margin-bottom: 30px;
+	width: 310px;
+	height: 310px;
+	padding: 15px;
 }
 
 /* ================================
